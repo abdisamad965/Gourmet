@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.hero-section {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price {
+  color: #ff5733;
+  font-weight: bold;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-container img {
+  width: 40%;
+  border-radius: 10px;
+}
+.contact-section {
+  background: #f9f9f9;
+  padding: 50px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-section button {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #e64a19;
+}
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
