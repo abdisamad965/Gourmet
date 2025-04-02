@@ -7,7 +7,7 @@ body {
 
 .navbar {
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   align-items: center;
   padding: 15px;
   background-color: #333;
@@ -116,9 +116,6 @@ flex-direction: column;
 
 .contact-section button:hover {
   background-color: #e64a19;
-}
-{
-  social 
 }
 .footer {
   background: #333;
